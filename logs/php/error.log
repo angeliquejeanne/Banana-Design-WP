@@ -1,0 +1,102 @@
+[02-May-2020 20:34:21 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (Le module spécifié est introuvable.), C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
+[02-May-2020 20:34:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (Le module spécifié est introuvable.), C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
+[02-May-2020 21:53:01 UTC] PHP Warning:  sprintf(): Too few arguments in C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\includes\class-bulk-upgrader-skin.php on line 152
+[02-May-2020 21:53:01 UTC] PHP Stack trace:
+[02-May-2020 21:53:01 UTC] PHP   1. {main}() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\themes.php:0
+[02-May-2020 21:53:01 UTC] PHP   2. require_once() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\themes.php:10
+[02-May-2020 21:53:01 UTC] PHP   3. do_action() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\admin.php:254
+[02-May-2020 21:53:01 UTC] PHP   4. WP_Hook->do_action() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\plugin.php:478
+[02-May-2020 21:53:01 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\class-wp-hook.php:311
+[02-May-2020 21:53:01 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\class-wp-hook.php:287
+[02-May-2020 21:53:01 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:658
+[02-May-2020 21:53:01 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:2892
+[02-May-2020 21:53:01 UTC] PHP   9. TGMPA_Bulk_Installer->run() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:3286
+[02-May-2020 21:53:01 UTC] PHP  10. TGMPA_Bulk_Installer->run() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:3173
+[02-May-2020 21:53:01 UTC] PHP  11. TGMPA_Bulk_Installer_Skin->after() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\includes\class-wp-upgrader.php:807
+[02-May-2020 21:53:01 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:3553
+[02-May-2020 21:53:01 UTC] PHP  13. sprintf() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\includes\class-bulk-upgrader-skin.php:152
+[02-May-2020 21:53:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\formatting.php:5716) in C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\pluggable.php on line 1281
+[02-May-2020 21:53:17 UTC] PHP Stack trace:
+[02-May-2020 21:53:17 UTC] PHP   1. {main}() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\themes.php:0
+[02-May-2020 21:53:17 UTC] PHP   2. require_once() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\themes.php:10
+[02-May-2020 21:53:17 UTC] PHP   3. do_action() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\admin.php:254
+[02-May-2020 21:53:17 UTC] PHP   4. WP_Hook->do_action() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\plugin.php:478
+[02-May-2020 21:53:17 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\class-wp-hook.php:311
+[02-May-2020 21:53:17 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\class-wp-hook.php:287
+[02-May-2020 21:53:17 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:658
+[02-May-2020 21:53:17 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:2892
+[02-May-2020 21:53:17 UTC] PHP   9. TGMPA_Bulk_Installer->run() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:3286
+[02-May-2020 21:53:17 UTC] PHP  10. TGMPA_Bulk_Installer->run() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:3173
+[02-May-2020 21:53:17 UTC] PHP  11. TGMPA_Bulk_Installer->install_package() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\includes\class-wp-upgrader.php:794
+[02-May-2020 21:53:17 UTC] PHP  12. apply_filters() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\includes\class-wp-upgrader.php:621
+[02-May-2020 21:53:17 UTC] PHP  13. WP_Hook->apply_filters() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\plugin.php:206
+[02-May-2020 21:53:17 UTC] PHP  14. TGMPA_Bulk_Installer->auto_activate() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\class-wp-hook.php:289
+[02-May-2020 21:53:17 UTC] PHP  15. activate_plugin() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:3383
+[02-May-2020 21:53:17 UTC] PHP  16. do_action() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\includes\plugin.php:690
+[02-May-2020 21:53:17 UTC] PHP  17. WP_Hook->do_action() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\plugin.php:478
+[02-May-2020 21:53:17 UTC] PHP  18. WP_Hook->apply_filters() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\class-wp-hook.php:311
+[02-May-2020 21:53:17 UTC] PHP  19. Ocean_Extra_Theme_Wizard::install() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\class-wp-hook.php:287
+[02-May-2020 21:53:17 UTC] PHP  20. wp_safe_redirect() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\plugins\ocean-extra\includes\wizard\wizard.php:45
+[02-May-2020 21:53:17 UTC] PHP  21. wp_redirect() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\pluggable.php:1389
+[02-May-2020 21:53:17 UTC] PHP  22. header() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\pluggable.php:1281
+[02-May-2020 21:53:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\formatting.php:5716) in C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\pluggable.php on line 1284
+[02-May-2020 21:53:17 UTC] PHP Stack trace:
+[02-May-2020 21:53:17 UTC] PHP   1. {main}() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\themes.php:0
+[02-May-2020 21:53:17 UTC] PHP   2. require_once() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\themes.php:10
+[02-May-2020 21:53:17 UTC] PHP   3. do_action() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\admin.php:254
+[02-May-2020 21:53:17 UTC] PHP   4. WP_Hook->do_action() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\plugin.php:478
+[02-May-2020 21:53:17 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\class-wp-hook.php:311
+[02-May-2020 21:53:17 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\class-wp-hook.php:287
+[02-May-2020 21:53:17 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:658
+[02-May-2020 21:53:17 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:2892
+[02-May-2020 21:53:17 UTC] PHP   9. TGMPA_Bulk_Installer->run() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:3286
+[02-May-2020 21:53:17 UTC] PHP  10. TGMPA_Bulk_Installer->run() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:3173
+[02-May-2020 21:53:17 UTC] PHP  11. TGMPA_Bulk_Installer->install_package() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\includes\class-wp-upgrader.php:794
+[02-May-2020 21:53:17 UTC] PHP  12. apply_filters() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\includes\class-wp-upgrader.php:621
+[02-May-2020 21:53:17 UTC] PHP  13. WP_Hook->apply_filters() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\plugin.php:206
+[02-May-2020 21:53:17 UTC] PHP  14. TGMPA_Bulk_Installer->auto_activate() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\class-wp-hook.php:289
+[02-May-2020 21:53:17 UTC] PHP  15. activate_plugin() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:3383
+[02-May-2020 21:53:17 UTC] PHP  16. do_action() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\includes\plugin.php:690
+[02-May-2020 21:53:17 UTC] PHP  17. WP_Hook->do_action() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\plugin.php:478
+[02-May-2020 21:53:17 UTC] PHP  18. WP_Hook->apply_filters() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\class-wp-hook.php:311
+[02-May-2020 21:53:17 UTC] PHP  19. Ocean_Extra_Theme_Wizard::install() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\class-wp-hook.php:287
+[02-May-2020 21:53:17 UTC] PHP  20. wp_safe_redirect() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\plugins\ocean-extra\includes\wizard\wizard.php:45
+[02-May-2020 21:53:17 UTC] PHP  21. wp_redirect() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\pluggable.php:1389
+[02-May-2020 21:53:17 UTC] PHP  22. header() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\pluggable.php:1284
+[02-May-2020 21:53:40 UTC] PHP Warning:  sprintf(): Too few arguments in C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\includes\class-bulk-upgrader-skin.php on line 152
+[02-May-2020 21:53:40 UTC] PHP Stack trace:
+[02-May-2020 21:53:40 UTC] PHP   1. {main}() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\themes.php:0
+[02-May-2020 21:53:40 UTC] PHP   2. require_once() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\themes.php:10
+[02-May-2020 21:53:40 UTC] PHP   3. do_action() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\admin.php:254
+[02-May-2020 21:53:40 UTC] PHP   4. WP_Hook->do_action() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\plugin.php:478
+[02-May-2020 21:53:40 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\class-wp-hook.php:311
+[02-May-2020 21:53:40 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\class-wp-hook.php:287
+[02-May-2020 21:53:40 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:658
+[02-May-2020 21:53:40 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:2892
+[02-May-2020 21:53:40 UTC] PHP   9. TGMPA_Bulk_Installer->run() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:3286
+[02-May-2020 21:53:40 UTC] PHP  10. TGMPA_Bulk_Installer->run() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:3173
+[02-May-2020 21:53:40 UTC] PHP  11. TGMPA_Bulk_Installer_Skin->after() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\includes\class-wp-upgrader.php:807
+[02-May-2020 21:53:40 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\themes\oceanwp\inc\plugins\class-tgm-plugin-activation.php:3553
+[02-May-2020 21:53:40 UTC] PHP  13. sprintf() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\includes\class-bulk-upgrader-skin.php:152
+[02-May-2020 22:03:00 UTC] PHP Warning:  unlink(): http does not allow unlinking in C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\plugins\ocean-extra\includes\panel\classes\importers\class-settings-importer.php on line 28
+[02-May-2020 22:03:00 UTC] PHP Stack trace:
+[02-May-2020 22:03:00 UTC] PHP   1. {main}() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\admin-ajax.php:0
+[02-May-2020 22:03:00 UTC] PHP   2. do_action() C:\Users\anggi\Local Sites\banana-design\app\public\wp-admin\admin-ajax.php:175
+[02-May-2020 22:03:00 UTC] PHP   3. WP_Hook->do_action() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\plugin.php:478
+[02-May-2020 22:03:00 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\class-wp-hook.php:311
+[02-May-2020 22:03:00 UTC] PHP   5. OceanWP_Demos->ajax_import_theme_settings() C:\Users\anggi\Local Sites\banana-design\app\public\wp-includes\class-wp-hook.php:287
+[02-May-2020 22:03:00 UTC] PHP   6. OWP_Settings_Importer->process_import_file() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\plugins\ocean-extra\includes\panel\demos.php:1210
+[02-May-2020 22:03:00 UTC] PHP   7. unlink() C:\Users\anggi\Local Sites\banana-design\app\public\wp-content\plugins\ocean-extra\includes\panel\classes\importers\class-settings-importer.php:28
+[02-May-2020 22:27:07 UTC] Erreur de la base de données WordPress Table 'local.wp_shortpixel_folders' doesn't exist pour la requête SELECT * FROM wp_shortpixel_folders order by path faite par require_once('wp-admin/admin.php'), do_action('settings_page_wp-shortpixel-settings'), WP_Hook->do_action, WP_Hook->apply_filters, ShortPixel\ShortPixelPlugin->route, ShortPixel\SettingsController->load, ShortPixel\SettingsController->load_settings, ShortPixel\SettingsController->loadCustomFolders, ShortPixel\OtherMediaController->refreshFolders, ShortPixel\OtherMediaController->getActiveFolders, ShortPixel\DirectoryOtherMediaModel::get, ShortPixelCustomMetaDao->getFolders, WpShortPixelDb->query
+[03-May-2020 11:16:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (Le module spécifié est introuvable.), C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
+[03-May-2020 11:16:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (Le module spécifié est introuvable.), C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
+[04-May-2020 13:39:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (Le module spécifié est introuvable.), C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
+[04-May-2020 13:39:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (Le module spécifié est introuvable.), C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
+[05-May-2020 11:05:56 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (Le module spécifié est introuvable.), C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
+[05-May-2020 11:05:58 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (Le module spécifié est introuvable.), C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
+[05-May-2020 13:17:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (Le module spécifié est introuvable.), C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
+[05-May-2020 13:18:03 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (Le module spécifié est introuvable.), C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
+[06-May-2020 21:00:03 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (Le module spécifié est introuvable.), C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
+[06-May-2020 21:00:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (Le module spécifié est introuvable.), C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
+[06-May-2020 21:43:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (Le module spécifié est introuvable.), C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
+[06-May-2020 21:43:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_imagick.dll (Le module spécifié est introuvable.), C:/Users/anggi/AppData/Roaming/Local/lightning-services/php-7.4.1+5/bin/win32/ext\php_php_imagick.dll.dll (Le module spécifié est introuvable.)) in Unknown on line 0
